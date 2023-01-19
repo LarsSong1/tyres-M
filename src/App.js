@@ -24,6 +24,7 @@ function App() {
             <Route path='tubos' element={<Tubos/>}/>
             <Route path='reencauche' element={<Reencauche/>}/>
           </Route>
+          <Route element={<Main/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
